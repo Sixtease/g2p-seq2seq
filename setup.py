@@ -41,8 +41,7 @@ setup(
     install_requires=['tensor2tensor>=1.6.6'],
 
     extras_require={
-        'tensorflow': ['tensorflow>=1.8.0'],
-        'tensorflow_gpu': ['tensorflow-gpu>=1.8.0']
+        'tensorflow': ['tensorflow>=1.8.0']
     },
 
     entry_points={
